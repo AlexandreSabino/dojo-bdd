@@ -5,15 +5,15 @@
 <b>Dado:</b> que seu sou estoquista <br/>
 <b>E:</b> estou analisando um produto <br/>
 <b>Quando:</b> identificar uma perda no estoque <br/>
-<b>Então:</b> desejo solicitar o decremento no estoque <br/>
-<b>E:</b> o sistema deve alterar o saldo do produto. <br/>
+<b>E:</b> desejo solicitar o decremento no estoque <br/>
+<b>Então:</b> o sistema deve alterar o saldo do produto. <br/>
 <hr>
 
 <b>Dado:</b> que seu sou estoquista <br/>
 <b>E:</b> estou analisando um produto <br/>
 <b>Quando:</b> identificar um produto a mais no estoque <br/>
-<b>Então:</b> desejo solicitar o incremento no estoque <br/>
-<b>E:</b> o sistema deve alterar o saldo do produto <br/>
+<b>E:</b> desejo solicitar o incremento no estoque <br/>
+<b>Então:</b> o sistema deve alterar o saldo do produto <br/>
 <b>E:</b> e registrar a ação efetuada. <br/>
 <hr>
 
@@ -28,15 +28,15 @@
 
 <b>Dado:</b> que sou um cliente <br/>
 <b>Quando:</b> efetuo uma compra com apenas um produto <br/>
-<b>Então:</b> o sistema deve reservar o estoque do produto com o status "RESERVADO" <br/>
-<b>E:</b> e decrementar o estoque disponivel do produto <br/>
+<b>E:</b> o sistema deve reservar o estoque do produto com o status "RESERVADO" <br/>
+<b>Então:</b> e decrementar o estoque disponivel do produto <br/>
 <hr>
 
 <b>Dado:</b> que sou um cliente <br/>
 <b>Quando:</b> efetuo uma compra <br/>
 <b>E:</b> o produto não existe no estoque <br/>
-<b>Então:</b> o sistema deve criar uma reserva com o status "SEM_ESTOQUE" <br/>
-<b>E:</b> e o saldo do produto não pode ser alterado <br/>
+<b>E:</b> o sistema deve criar uma reserva com o status "SEM_ESTOQUE" <br/>
+<b>Então:</b> saldo do produto não pode ser alterado <br/>
 <hr>
 
 <b>Dado:</b> que sou um faturista <br/>
