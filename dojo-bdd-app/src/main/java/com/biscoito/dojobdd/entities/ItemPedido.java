@@ -7,17 +7,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class ProdutoMovimentacao {
-
+public class ItemPedido {
     private String sku;
-
-    private String pais;
-
-    private int almoxarifado;
-
-    private TipoMovimentacao tipoMovimentacao;
 
     private int quantidade;
 
-    private String descricao;
+    private String pais;
 }

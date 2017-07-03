@@ -2,22 +2,27 @@ package com.biscoito.dojobdd.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
+
+import java.time.LocalDateTime;
+
 
 @Getter
-@Setter
 @AllArgsConstructor
-public class ProdutoMovimentacao {
+public class Movimentacao {
+
+    private String uuid;
 
     private String sku;
 
-    private String pais;
-
     private int almoxarifado;
 
-    private TipoMovimentacao tipoMovimentacao;
+    private LocalDateTime data;
+
+    private String pais;
 
     private int quantidade;
 
     private String descricao;
+
+
 }
